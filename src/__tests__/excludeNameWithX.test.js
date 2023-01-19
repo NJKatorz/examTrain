@@ -11,5 +11,13 @@ describe("excludeNameWithX tests suites", () => {
         expect(result).toEqual(["Momo", "Hadji", "Leo"]);
     });
 
+    it("should return the table without the names with the letter 'X'", () => {
+        const result = excludeNameWithX(["DMX", "Xzibit", "JeanKevin"]);
+        expect(result).toEqual(["JeanKevin"]);
+    });
+
+    
+
+
 
 });
