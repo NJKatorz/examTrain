@@ -20,7 +20,4 @@ describe("excludeNameWithX tests suites", () => {
         const result = excludeNameWithX(["JC", "Leo", "xena"]);
         expect(result).toEqual(["JC", "Leo"]);
     });
-
-
-
 });
