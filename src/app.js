@@ -24,7 +24,7 @@ const isAdmin = (userId) => userId === "admin" || userId === "sudo";
 try {
     document.getElementById("month").innerText = getCurrentMonth();
 } catch (err) {
-    console.error(JSON.stringify(err));
+    console.log("oui");
 }
 
 exports.getCurrentMonth = getCurrentMonth;
